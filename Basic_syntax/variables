@@ -1,0 +1,25 @@
+'''
+    Topic: Variables
+    Author: Anup Chando Dhrubo
+'''
+
+# Variables are created when we assign value to it
+# No need to declare any type of variable
+var1 = 4
+var2 = "Dhrubo"
+print (var1, var2)
+
+# Change var2 value
+var2 = "Rudro"
+print (var2)
+
+# Var2 is of string type, change var2 value to another type
+var2 = 5
+print (var2)
+
+'''
+    Casting: If we want to specify the data type of a variable, this can be done with casting.
+'''
+
+x = str(3)  # 3 is an integer type value, but now it is of string type
+print (type(x))  # type(variable_name) ; this returns the type of variable
